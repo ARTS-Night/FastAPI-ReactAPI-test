@@ -1,13 +1,5 @@
 services:
   app:
-    image: node:18-alpine
-    working_dir: /app
-    volumes:
-      - .:/app
-      - /app/node_modules
-    environment:
-      - NODE_ENV=production
-      - PORT=5173
-    command: sh -c "npm install --include=dev && npm run build && npm run preview"
+    build: .
     ports:
       - "5173:5173"
