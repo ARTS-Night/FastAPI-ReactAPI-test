@@ -1,4 +1,8 @@
 node_modules
+dist
+.env
+.DS_Store
+node_modules
 .bun
 bun.lockb
 dist
