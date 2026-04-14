@@ -16,4 +16,4 @@ services:
     working_dir: /app
     command: sh -c "bun install && bun x --bun vite --host --port 5173"
     ports:
-      - "8080:5173"
+      - "${PORT:-8080}:5173"

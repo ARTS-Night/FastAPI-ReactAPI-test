@@ -18,7 +18,7 @@ docker-compose run --rm dev bun install
 docker-compose up dev
 ```
 
--- `web` サービス（ビルドせず Bun 上で Vite を起動、ホストのポート8080で公開）:
+-- `web` サービス（ビルドせず Bun 上で Vite を起動、ホストのポートは環境変数 `PORT`（デフォルト `8080`）で公開）:
 ```bash
 docker-compose up web
 ```
@@ -26,7 +26,7 @@ docker-compose up web
 ブラウザで以下にアクセスしてください:
 
 - `dev` サービス: http://localhost:5173
-- `web` サービス: http://localhost:8080
+- `web` サービス: http://localhost:PORT （デフォルト http://localhost:8080）
 
 ローカルで bun を使う場合:
 ```bash
