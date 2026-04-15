@@ -2,12 +2,10 @@
   "name": "simple-react-docker",
   "private": true,
   "version": "0.0.1",
-  "type": "module",
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
-    "preview": "vite preview",
-    "start": "vite preview --port ${PORT:-5173}"
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.2.0",
