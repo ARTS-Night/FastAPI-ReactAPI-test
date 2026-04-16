@@ -1,6 +1,6 @@
 # Simple React + Vite (Node 開発用)
 
-このリポジトリは `node:18-alpine` コンテナ上で Vite を使って React 開発サーバを起動する最小構成です。
+このリポジトリは `node:20-alpine` コンテナ上で Vite を使って React 開発サーバを起動する最小構成です。
 
 前提: Docker が動作していること。
 
